@@ -1,0 +1,70 @@
+body{
+    background-color: hsl(210, 46%, 95%);
+    font-family: 'Manrope', sans-serif;
+}
+.container{
+    background-color: white;
+    max-width: 1000px;
+    height: 10%;
+    margin:70px auto;
+    display: flex;
+    border-radius: 10px;
+}
+.left{
+    width: 100%;
+}
+.left img{
+    width: 400px;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+}
+.profile-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profile img{
+    border-radius: 50%;
+    width: 80px;
+}
+.profile{
+    display: flex;
+    gap: 20px;
+}
+.profile-text h4{
+    margin-bottom: 0;
+}
+.profile-text p{
+    margin-top: 0;
+}
+.right{
+    margin: 20px 50px;
+}
+p{
+    color: grey;
+    font-size: 20px;
+}
+h1{
+    font-size: 25px;
+    /* margin-right: 60px; */
+}
+.share-icon{
+    border-radius: 50%;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Assignment
+1. Align the text to look exactly like the design
+2. Add border-radius around the box
+3. Apply the font-family
+4. Give the div containing the share icon a width and height and apply border-radius to form a circle and apply a light grey background */
